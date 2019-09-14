@@ -14,9 +14,6 @@ def zeroInit(width, height):
     return [[DEAD for _ in range(height)] for _ in range(width)]
 
 def randomInit(width, height):
-    global globalHeight, globalWidth
-    globalWidth = width
-    globalHeight = height
     state = zeroInit(width, height)
     for x in range(0, width):
         for y in range(0, height):
