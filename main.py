@@ -36,7 +36,7 @@ def draw(state):
         for x in range(0, globalWidth):
             line += symDict[state[x][y]] * 2
         lines.append(line)
-    print "\n".join(lines)
+    print ("\n".join(lines))
 
 def nextCellValue(cellCoords, state):
     xVal = cellCoords[0]
