@@ -40,7 +40,7 @@ def draw(state):
         for x in range(0, globalWidth):
             line += symbolDictionary[state[x][y]] * 2
         lines.append(line)
-    print "\n".join(lines)
+    print ("\n".join(lines))
 
 #This is the main rule method, checking whether a cell should live or die according to the rules of the game
 def nextCellValue(cellCoords, state):
