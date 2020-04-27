@@ -121,4 +121,3 @@ blockswitchengine   = [[0, 0, 0, 0, 0, 0, 1, 0],
 #                                                                   Infinite Growth
 
 #https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-#https://jakevdp.github.io/blog/2013/08/07/conways-game-of-life/
